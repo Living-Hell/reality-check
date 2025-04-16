@@ -6,6 +6,65 @@
 
 **Mission**: Build an AI-assisted mobile application that helps users distinguish between hallucinations and reality using real-time audio-visual and cognitive assistance, while providing therapeutic tools, support, and monitoring.
 
+
+### Core Symptoms to Address
+
+---
+
+#### **Hallucinations**
+
+Hallucinations are perceptions in the absence of an external stimulus — meaning the person experiences something that isn't actually present. They can affect any of the five senses and are a core symptom of schizophrenia.
+
+---
+
+#####  Auditory Hallucinations *(Most common in schizophrenia)*
+
+Hearing voices or sounds that are not actually present. Voices may:
+
+- Talk directly to the person  
+- Talk about the person in third person  
+- Command or threaten *(command hallucinations)*  
+- Argue among themselves  
+- Be distressing or, less commonly, comforting depending on tone and content  
+
+---
+
+#####  Visual Hallucinations
+
+Seeing people, shapes, shadows, or lights that aren't there. May include:
+
+- Faces or full figures (sometimes familiar, sometimes unknown)  
+- Distorted environments (e.g., walls moving, colors shifting)  
+- People appearing and disappearing  
+
+---
+
+#####  Optional Subclassifications (Advanced Insight for App Logic)
+
+- **Mood-congruent vs. mood-incongruent hallucinations**  
+  _e.g., a depressed person hearing a voice saying “you’re worthless”_  
+- **Interactive vs. Passive hallucinations**  
+  _Are the voices engaging directly with the user or just passively present?_  
+
+---
+
+#### **Delusions**
+
+---
+
+#####  *Fregoli Delusion*  
+The belief that different people are actually a single person who is changing appearance or in disguise. Often includes paranoia (e.g., "They’re following me in different forms").
+
+---
+
+#####  *Capgras Delusion*  
+The belief that someone familiar has been replaced by an imposter. This often affects trust and emotional connection.
+
+---
+
+#####  General Misidentification / Misperception  
+Sometimes individuals may see someone with a vaguely similar face, posture, or walk and mistakenly believe it's someone they know — even without forming a full-blown delusion.
+
 ---
 
 ## **2. Key Features & Ideas**
@@ -40,6 +99,17 @@
 
 - **Offline Mode**:  
   Key functionality available without internet access for emergencies.
+- **Misidentification Insight Tool** (for Fregoli-like Symptoms)
+  Helps users recognize and reflect on moments of delusional misidentification.
+
+  Gentle self-check questions triggered via journal entries or daily prompts
+
+  Logs and identifies patterns where users mistake strangers for familiar people
+
+  Offers grounding support and AI-guided reality testing exercises
+
+  Optional alerts for caregivers if frequent misidentification patterns are detected
+
 
 ---
 

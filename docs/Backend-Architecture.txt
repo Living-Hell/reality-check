@@ -1,0 +1,17 @@
+[ Reality Check ]
+    |
+    |— Mic/Camera/Text Input
+    |— Offline Inference (TF Lite for audio/visual)
+    |           |
+    |           +— Instant feedback (offline validation)
+    |
+    |— Journaling / Deep NLP → Sends securely →
+    |
+[ Backend Server ]
+    |
+    |— Auth + Secure API keys
+    |— Calls to OpenAI / Whisper / GPT
+    |— Logging + Alert Triggers
+    |
+    ↓
+[ External APIs / Cloud AI Models ]
